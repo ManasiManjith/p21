@@ -31,8 +31,7 @@ function setup() {
 		friction:0,
 		density:1.2
 	}
-	engine = Engine.create();
-	world = engine.world;
+	
 
 	//Create the Bodies Here.
 	ball=Bodies.circle(100,100,20,{restitution:1})
